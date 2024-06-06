@@ -4,22 +4,24 @@
 This is a RESTful API for managing recipes using Flask. It includes endpoints for creating, retrieving, updating, deleting, and searching for recipes.
 
 ## Project Structure
+
 recipe_book_api/
 │
 ├── app.py
+├── config.py
 ├── requirements.txt
 ├── README.md
-├── config.py
 ├── recipes/
-│ ├── init.py
-│ ├── controller.py
-│ ├── model.py
-│ ├── repository.py
-│ ├── service.py
-│ ├── schema.py
+│   ├── __init__.py
+│   ├── controller.py
+│   ├── model.py
+│   ├── repository.py
+│   ├── service.py
+│   ├── schema.py
 └── tests/
-├── init.py
-└── test_app.py
+    ├── __init__.py
+    └── test_app.py
+
 
 
 ## Requirements
